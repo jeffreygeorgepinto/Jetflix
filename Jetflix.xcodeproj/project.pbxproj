@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		545F52BA29DF3A1C009E3A6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F52B929DF3A1C009E3A6F /* AppDelegate.swift */; };
+		545F52BC29DF3A1C009E3A6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F52BB29DF3A1C009E3A6F /* SceneDelegate.swift */; };
+		545F52BE29DF3A1C009E3A6F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F52BD29DF3A1C009E3A6F /* MainTabBarViewController.swift */; };
+		545F52C329DF3A1D009E3A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545F52C229DF3A1D009E3A6F /* Assets.xcassets */; };
+		545F52C629DF3A1D009E3A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545F52C429DF3A1D009E3A6F /* LaunchScreen.storyboard */; };
+		545F52D129DF3A1D009E3A6F /* JetflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F52D029DF3A1D009E3A6F /* JetflixTests.swift */; };
+		545F52DB29DF3A1D009E3A6F /* JetflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F52DA29DF3A1D009E3A6F /* JetflixUITests.swift */; };
+		545F52DD29DF3A1D009E3A6F /* JetflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F52DC29DF3A1D009E3A6F /* JetflixUITestsLaunchTests.swift */; };
+		545F52EB29DF3FEE009E3A6F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F52EA29DF3FEE009E3A6F /* HomeViewController.swift */; };
+		545F52ED29DF40FE009E3A6F /* ComingSoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F52EC29DF40FE009E3A6F /* ComingSoonViewController.swift */; };
+		545F52EF29DF410B009E3A6F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F52EE29DF410B009E3A6F /* SearchViewController.swift */; };
+		545F52F129DF4119009E3A6F /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F52F029DF4119009E3A6F /* DownloadViewController.swift */; };
+		545F52F829DF51FA009E3A6F /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F52F729DF51FA009E3A6F /* CollectionViewTableViewCell.swift */; };
+		54D761C529F4D56C0070DE84 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D761C429F4D56C0070DE84 /* HeroHeaderUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		545F52CD29DF3A1D009E3A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 545F52AE29DF3A1C009E3A6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 545F52B529DF3A1C009E3A6F;
+			remoteInfo = Jetflix;
+		};
+		545F52D729DF3A1D009E3A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 545F52AE29DF3A1C009E3A6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 545F52B529DF3A1C009E3A6F;
+			remoteInfo = Jetflix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		545F52B629DF3A1C009E3A6F /* Jetflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jetflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		545F52B929DF3A1C009E3A6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		545F52BB29DF3A1C009E3A6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		545F52BD29DF3A1C009E3A6F /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		545F52C229DF3A1D009E3A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		545F52C529DF3A1D009E3A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		545F52C729DF3A1D009E3A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		545F52CC29DF3A1D009E3A6F /* JetflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		545F52D029DF3A1D009E3A6F /* JetflixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetflixTests.swift; sourceTree = "<group>"; };
+		545F52D629DF3A1D009E3A6F /* JetflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		545F52DA29DF3A1D009E3A6F /* JetflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetflixUITests.swift; sourceTree = "<group>"; };
+		545F52DC29DF3A1D009E3A6F /* JetflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		545F52EA29DF3FEE009E3A6F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		545F52EC29DF40FE009E3A6F /* ComingSoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonViewController.swift; sourceTree = "<group>"; };
+		545F52EE29DF410B009E3A6F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		545F52F029DF4119009E3A6F /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		545F52F729DF51FA009E3A6F /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		54D761C429F4D56C0070DE84 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		545F52B329DF3A1C009E3A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545F52C929DF3A1D009E3A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545F52D329DF3A1D009E3A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		545F52AD29DF3A1C009E3A6F = {
+			isa = PBXGroup;
+			children = (
+				545F52B829DF3A1C009E3A6F /* Jetflix */,
+				545F52CF29DF3A1D009E3A6F /* JetflixTests */,
+				545F52D929DF3A1D009E3A6F /* JetflixUITests */,
+				545F52B729DF3A1C009E3A6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		545F52B729DF3A1C009E3A6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				545F52B629DF3A1C009E3A6F /* Jetflix.app */,
+				545F52CC29DF3A1D009E3A6F /* JetflixTests.xctest */,
+				545F52D629DF3A1D009E3A6F /* JetflixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		545F52B829DF3A1C009E3A6F /* Jetflix */ = {
+			isa = PBXGroup;
+			children = (
+				545F52F629DF5188009E3A6F /* Managers */,
+				545F52F529DF517E009E3A6F /* Resources */,
+				545F52F429DF511E009E3A6F /* Models */,
+				545F52F229DF50F0009E3A6F /* Views */,
+				545F52F329DF50FD009E3A6F /* ViewModels */,
+				545F52E929DF3FCB009E3A6F /* Controllers */,
+				545F52B929DF3A1C009E3A6F /* AppDelegate.swift */,
+				545F52BB29DF3A1C009E3A6F /* SceneDelegate.swift */,
+				545F52BD29DF3A1C009E3A6F /* MainTabBarViewController.swift */,
+				545F52C229DF3A1D009E3A6F /* Assets.xcassets */,
+				545F52C429DF3A1D009E3A6F /* LaunchScreen.storyboard */,
+				545F52C729DF3A1D009E3A6F /* Info.plist */,
+			);
+			path = Jetflix;
+			sourceTree = "<group>";
+		};
+		545F52CF29DF3A1D009E3A6F /* JetflixTests */ = {
+			isa = PBXGroup;
+			children = (
+				545F52D029DF3A1D009E3A6F /* JetflixTests.swift */,
+			);
+			path = JetflixTests;
+			sourceTree = "<group>";
+		};
+		545F52D929DF3A1D009E3A6F /* JetflixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				545F52DA29DF3A1D009E3A6F /* JetflixUITests.swift */,
+				545F52DC29DF3A1D009E3A6F /* JetflixUITestsLaunchTests.swift */,
+			);
+			path = JetflixUITests;
+			sourceTree = "<group>";
+		};
+		545F52E929DF3FCB009E3A6F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				545F52EA29DF3FEE009E3A6F /* HomeViewController.swift */,
+				545F52EC29DF40FE009E3A6F /* ComingSoonViewController.swift */,
+				545F52EE29DF410B009E3A6F /* SearchViewController.swift */,
+				545F52F029DF4119009E3A6F /* DownloadViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		545F52F229DF50F0009E3A6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				545F52F729DF51FA009E3A6F /* CollectionViewTableViewCell.swift */,
+				54D761C429F4D56C0070DE84 /* HeroHeaderUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		545F52F329DF50FD009E3A6F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		545F52F429DF511E009E3A6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		545F52F529DF517E009E3A6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		545F52F629DF5188009E3A6F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		545F52B529DF3A1C009E3A6F /* Jetflix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545F52E029DF3A1D009E3A6F /* Build configuration list for PBXNativeTarget "Jetflix" */;
+			buildPhases = (
+				545F52B229DF3A1C009E3A6F /* Sources */,
+				545F52B329DF3A1C009E3A6F /* Frameworks */,
+				545F52B429DF3A1C009E3A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jetflix;
+			productName = Jetflix;
+			productReference = 545F52B629DF3A1C009E3A6F /* Jetflix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		545F52CB29DF3A1D009E3A6F /* JetflixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545F52E329DF3A1D009E3A6F /* Build configuration list for PBXNativeTarget "JetflixTests" */;
+			buildPhases = (
+				545F52C829DF3A1D009E3A6F /* Sources */,
+				545F52C929DF3A1D009E3A6F /* Frameworks */,
+				545F52CA29DF3A1D009E3A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				545F52CE29DF3A1D009E3A6F /* PBXTargetDependency */,
+			);
+			name = JetflixTests;
+			productName = JetflixTests;
+			productReference = 545F52CC29DF3A1D009E3A6F /* JetflixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		545F52D529DF3A1D009E3A6F /* JetflixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545F52E629DF3A1D009E3A6F /* Build configuration list for PBXNativeTarget "JetflixUITests" */;
+			buildPhases = (
+				545F52D229DF3A1D009E3A6F /* Sources */,
+				545F52D329DF3A1D009E3A6F /* Frameworks */,
+				545F52D429DF3A1D009E3A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				545F52D829DF3A1D009E3A6F /* PBXTargetDependency */,
+			);
+			name = JetflixUITests;
+			productName = JetflixUITests;
+			productReference = 545F52D629DF3A1D009E3A6F /* JetflixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		545F52AE29DF3A1C009E3A6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					545F52B529DF3A1C009E3A6F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					545F52CB29DF3A1D009E3A6F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 545F52B529DF3A1C009E3A6F;
+					};
+					545F52D529DF3A1D009E3A6F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 545F52B529DF3A1C009E3A6F;
+					};
+				};
+			};
+			buildConfigurationList = 545F52B129DF3A1C009E3A6F /* Build configuration list for PBXProject "Jetflix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 545F52AD29DF3A1C009E3A6F;
+			productRefGroup = 545F52B729DF3A1C009E3A6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				545F52B529DF3A1C009E3A6F /* Jetflix */,
+				545F52CB29DF3A1D009E3A6F /* JetflixTests */,
+				545F52D529DF3A1D009E3A6F /* JetflixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		545F52B429DF3A1C009E3A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545F52C629DF3A1D009E3A6F /* LaunchScreen.storyboard in Resources */,
+				545F52C329DF3A1D009E3A6F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545F52CA29DF3A1D009E3A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545F52D429DF3A1D009E3A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		545F52B229DF3A1C009E3A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545F52EF29DF410B009E3A6F /* SearchViewController.swift in Sources */,
+				545F52BE29DF3A1C009E3A6F /* MainTabBarViewController.swift in Sources */,
+				545F52F829DF51FA009E3A6F /* CollectionViewTableViewCell.swift in Sources */,
+				54D761C529F4D56C0070DE84 /* HeroHeaderUIView.swift in Sources */,
+				545F52BA29DF3A1C009E3A6F /* AppDelegate.swift in Sources */,
+				545F52F129DF4119009E3A6F /* DownloadViewController.swift in Sources */,
+				545F52BC29DF3A1C009E3A6F /* SceneDelegate.swift in Sources */,
+				545F52ED29DF40FE009E3A6F /* ComingSoonViewController.swift in Sources */,
+				545F52EB29DF3FEE009E3A6F /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545F52C829DF3A1D009E3A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545F52D129DF3A1D009E3A6F /* JetflixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545F52D229DF3A1D009E3A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545F52DB29DF3A1D009E3A6F /* JetflixUITests.swift in Sources */,
+				545F52DD29DF3A1D009E3A6F /* JetflixUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		545F52CE29DF3A1D009E3A6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 545F52B529DF3A1C009E3A6F /* Jetflix */;
+			targetProxy = 545F52CD29DF3A1D009E3A6F /* PBXContainerItemProxy */;
+		};
+		545F52D829DF3A1D009E3A6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 545F52B529DF3A1C009E3A6F /* Jetflix */;
+			targetProxy = 545F52D729DF3A1D009E3A6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		545F52C429DF3A1D009E3A6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545F52C529DF3A1D009E3A6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		545F52DE29DF3A1D009E3A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		545F52DF29DF3A1D009E3A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		545F52E129DF3A1D009E3A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MYVR3TYNP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jetflix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JpCodes.Jetflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		545F52E229DF3A1D009E3A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MYVR3TYNP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jetflix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JpCodes.Jetflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		545F52E429DF3A1D009E3A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MYVR3TYNP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JpCodes.JetflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jetflix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jetflix";
+			};
+			name = Debug;
+		};
+		545F52E529DF3A1D009E3A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MYVR3TYNP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JpCodes.JetflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jetflix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jetflix";
+			};
+			name = Release;
+		};
+		545F52E729DF3A1D009E3A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MYVR3TYNP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JpCodes.JetflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jetflix;
+			};
+			name = Debug;
+		};
+		545F52E829DF3A1D009E3A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MYVR3TYNP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JpCodes.JetflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jetflix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		545F52B129DF3A1C009E3A6F /* Build configuration list for PBXProject "Jetflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545F52DE29DF3A1D009E3A6F /* Debug */,
+				545F52DF29DF3A1D009E3A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545F52E029DF3A1D009E3A6F /* Build configuration list for PBXNativeTarget "Jetflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545F52E129DF3A1D009E3A6F /* Debug */,
+				545F52E229DF3A1D009E3A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545F52E329DF3A1D009E3A6F /* Build configuration list for PBXNativeTarget "JetflixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545F52E429DF3A1D009E3A6F /* Debug */,
+				545F52E529DF3A1D009E3A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545F52E629DF3A1D009E3A6F /* Build configuration list for PBXNativeTarget "JetflixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545F52E729DF3A1D009E3A6F /* Debug */,
+				545F52E829DF3A1D009E3A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 545F52AE29DF3A1C009E3A6F /* Project object */;
+}
